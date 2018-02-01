@@ -1,5 +1,6 @@
-package casual.business_logic_service;
+package casual.business_logic;
 
+import casual.business_logic_service.CreateBLService;
 import casual.utility.ResultMessage;
 import casual.vo.*;
 
@@ -7,47 +8,52 @@ import casual.vo.*;
  * @author miaomuzhi
  * @since 2018/2/1
  */
-public interface CreateBLService {
-
+public class CreateBL implements CreateBLService {
     /**
-     *
      * @param useCaseVO 用例文档的初始信息
      * @return 创建是否成功
      */
-    ResultMessage createUseCaseDoc(UseCaseVO useCaseVO);
+    public ResultMessage createUseCaseDoc(UseCaseVO useCaseVO) {
+        return null;
+    }
 
     /**
-     *
      * @param specificationVO 需求规格说明文档的初始信息
      * @return 创建是否成功
      */
-    ResultMessage createSpecificationDoc(SpecificationVO specificationVO);
+    public ResultMessage createSpecificationDoc(SpecificationVO specificationVO) {
+        return null;
+    }
 
     /**
-     *
      * @param requireMeasureVO 需求度量文档的初始信息
      * @return 创建是否成功
      */
-    ResultMessage createRequireMeasureDoc(RequireMeasureVO requireMeasureVO);
+    public ResultMessage createRequireMeasureDoc(RequireMeasureVO requireMeasureVO) {
+        return null;
+    }
 
     /**
-     *
      * @param testCaseVO 需求测试文档的初始信息
      * @return 创建是否成功
      */
-    ResultMessage createTestCaseDoc(TestCaseVO testCaseVO);
+    public ResultMessage createTestCaseDoc(TestCaseVO testCaseVO) {
+        return null;
+    }
 
     /**
-     *
      * @param architectVO 体系结构文档的初始信息
      * @return 创建是否成功
      */
-    ResultMessage createArchitectDoc(ArchitectVO architectVO);
+    public ResultMessage createArchitectDoc(ArchitectVO architectVO) {
+        return null;
+    }
 
     /**
-     *
      * @param detailedVO 详细设计文档的初始信息
      * @return 创建是否成功
      */
-    ResultMessage createDetailedDoc(DetailedVO detailedVO);
+    public ResultMessage createDetailedDoc(DetailedVO detailedVO) {
+        return null;
+    }
 }

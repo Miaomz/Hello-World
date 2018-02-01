@@ -1,4 +1,6 @@
-package casual.business_logic_service;
+package casual.business_logic;
+
+import casual.business_logic_service.CheckBLService;
 
 import java.io.File;
 
@@ -6,14 +8,16 @@ import java.io.File;
  * @author miaomuzhi
  * @since 2018/2/1
  */
-public interface CheckBLService {
+public class CheckBL implements CheckBLService {
     /**
      *
      * @param projectRoot 项目的根目录
      * @param doc 详细设计文档
      * @return 两者是否同步
      */
-    boolean isDocSync(File projectRoot, File doc);
+    public boolean isDocSync(File projectRoot, File doc) {
+        return false;
+    }
 
     /**
      *
@@ -21,5 +25,7 @@ public interface CheckBLService {
      * @param detailDoc 详细设计文档
      * @return 两者是否同步
      */
-    boolean isArchitectSync(File ArchitectDoc, File detailDoc);
+    public boolean isArchitectSync(File ArchitectDoc, File detailDoc) {
+        return false;
+    }
 }
