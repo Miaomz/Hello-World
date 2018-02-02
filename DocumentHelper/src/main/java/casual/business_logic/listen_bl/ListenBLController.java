@@ -1,4 +1,4 @@
-package casual.business_logic;
+package casual.business_logic.listen_bl;
 
 import casual.business_logic_service.ListenBLService;
 import casual.utility.ResultMessage;
@@ -9,7 +9,7 @@ import java.io.File;
  * @author miaomuzhi
  * @since 2018/2/2
  */
-public class ListenBL implements ListenBLService {
+public class ListenBLController implements ListenBLService {
     /**
      * @param projectRoot  项目根文件
      * @param architectDoc 体系结构设计文档

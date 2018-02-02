@@ -1,0 +1,29 @@
+.button {
+    -fx-background-color: efefef;
+    -fx-border-color: bbbbbb;
+    -fx-border-width: 2;
+    -fx-font-size: 20;
+}
+
+.button:focused {
+    -fx-background-color:
+        rgb(76,81,86),
+        linear-gradient(to bottom,rgb(200,202,207) 0%,rgb(180,182,187) 100%),
+        linear-gradient(to bottom,rgb(222,223,228) 0%,rgb(195,199,203) 100%);
+    -fx-background-insets: -0.4,1,2,3;
+}
+
+.button:hover {
+    -fx-background-color:
+        transparent,
+        rgb(76,81,86),
+        linear-gradient(to bottom,rgb(200,202,207) 0%,rgb(180,182,187) 100%),
+        linear-gradient(to bottom,rgb(237,239,245) 0%,rgb(211,214,217) 100%);
+    -fx-background-insets: 0,1,2,3;
+}
+
+.vbox {
+    -fx-alignment: top-left;
+    -fx-spacing: 10;
+    -fx-padding: 10, 10, 10, 10;
+}

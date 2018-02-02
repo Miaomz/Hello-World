@@ -1,4 +1,4 @@
-package casual.business_logic;
+package casual.business_logic.check_bl;
 
 import casual.business_logic_service.CheckBLService;
 
@@ -8,7 +8,7 @@ import java.io.File;
  * @author miaomuzhi
  * @since 2018/2/1
  */
-public class CheckBL implements CheckBLService {
+public class CheckBLController implements CheckBLService {
     /**
      *
      * @param projectRoot 项目的根目录

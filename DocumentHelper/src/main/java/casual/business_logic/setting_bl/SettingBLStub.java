@@ -1,4 +1,4 @@
-package casual.business_logic;
+package casual.business_logic.setting_bl;
 
 import casual.business_logic_service.SettingBLService;
 import casual.utility.ResultMessage;
@@ -7,9 +7,9 @@ import casual.vo.DocTemplateVO;
 
 /**
  * @author miaomuzhi
- * @since 2018/2/1
+ * @since 2018/2/2
  */
-public class SettingBL implements SettingBLService {
+public class SettingBLStub implements SettingBLService {
     /**
      * @param docTemplateVO 文档模版
      * @return 修改是否成功

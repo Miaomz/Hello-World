@@ -1,4 +1,4 @@
-package casual.business_logic;
+package casual.business_logic.create_bl;
 
 import casual.business_logic_service.CreateBLService;
 import casual.utility.ResultMessage;
@@ -6,9 +6,9 @@ import casual.vo.*;
 
 /**
  * @author miaomuzhi
- * @since 2018/2/1
+ * @since 2018/2/2
  */
-public class CreateBL implements CreateBLService {
+public class CreateBLStub implements CreateBLService {
     /**
      * @param useCaseVO 用例文档的初始信息
      * @return 创建是否成功
