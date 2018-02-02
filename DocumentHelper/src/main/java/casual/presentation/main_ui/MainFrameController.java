@@ -2,6 +2,7 @@ package casual.presentation.main_ui;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.TextArea;
+import javafx.scene.layout.HBox;
 
 /**
  * @author miaomuzhi
@@ -10,4 +11,6 @@ import javafx.scene.control.TextArea;
 public class MainFrameController {
     @FXML
     private TextArea info;
+    @FXML
+    private HBox workspace;
 }

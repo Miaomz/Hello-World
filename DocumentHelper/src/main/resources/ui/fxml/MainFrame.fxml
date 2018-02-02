@@ -8,25 +8,26 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
 
+<?import javafx.scene.layout.HBox?>
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
             prefHeight="400.0" prefWidth="600.0"
             stylesheets="@../css/Main.css"
             xmlns="http://javafx.com/javafx/8.0.112"
             xmlns:fx="http://javafx.com/fxml/1"
             fx:controller="casual.presentation.main_ui.MainFrameController">
-   <left>
-      <VBox prefHeight="200.0" prefWidth="100.0" styleClass="vbox" BorderPane.alignment="CENTER">
-         <children>
-            <Button mnemonicParsing="false" text="新建" />
-            <Button mnemonicParsing="false" text="监听" />
-            <Button mnemonicParsing="false" text="设置" />
-            <Button mnemonicParsing="false" text="退出" />
-         </children>
-      </VBox>
-   </left>
 
     <center>
-        <TextArea fx:id="info" editable="false" />
+        <HBox fx:id="workspace">
+            <VBox prefHeight="200.0" prefWidth="100.0" styleClass="vbox" BorderPane.alignment="CENTER">
+                <children>
+                    <Button mnemonicParsing="false" text="新建" />
+                    <Button mnemonicParsing="false" text="监听" />
+                    <Button mnemonicParsing="false" text="设置" />
+                    <Button mnemonicParsing="false" text="退出" />
+                </children>
+            </VBox>
+            <TextArea fx:id="info" editable="false" />
+        </HBox>
     </center>
    <top>
       <MenuBar BorderPane.alignment="CENTER">
